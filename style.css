@@ -1,4 +1,5 @@
 body{
+    
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
@@ -15,6 +16,7 @@ h2{
 .flexible{
     display: flex;
     margin-bottom: 150px;
+    
 }
 .half-width{
     width: 50%;
@@ -58,7 +60,7 @@ h2{
 .thrid-sec{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background position: left;
+    
 
 }
 
@@ -77,5 +79,5 @@ h2{
 }
 #fptr{
     text-align: center;
-    
+
 }
