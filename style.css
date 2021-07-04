@@ -6,10 +6,13 @@ h1{
     font-size: 50px;
     
 }
+h2{
+    font-size: 40px;
+}
 .orarnge{
     color: orange;
 }
-section{
+.flexible{
     display: flex;
     margin-bottom: 150px;
 }
@@ -39,4 +42,40 @@ section{
     background-repeat: no-repeat;
     background-position: right;    
 }
+.div2{
+    padding: 20px;
+}
 
+.add-width{
+    border-radius: 10px;
+    width: 40%;
+    padding-left: 20px;
+    margin-left: 5%;
+    margin-right: 5%; 
+    box-shadow: 10px 10px 8px 5px red;
+   
+}
+.thrid-sec{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background position: left;
+
+}
+
+#bord{
+    border-left: 6px solid ;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice:1 ;
+}
+#bord2{
+    border-left: 6px solid ;
+    border-image: linear-gradient(rgb(0, 255, 76),rgb(255, 217, 0));
+    border-image-slice:1 ;
+}
+.obj{
+    margin-right: 80px;
+}
+#fptr{
+    text-align: center;
+    
+}
